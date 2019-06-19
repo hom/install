@@ -8,6 +8,7 @@
 - [x] [`git`](https://github.com/hom/install/blob/master/install/git.md)
 - [x] [`nvm`](https://github.com/hom/install/blob/master/install/nvm.md)
 - [x] [`shadowsocks`](https://github.com/hom/install/blob/master/install/shadowsocks.md)
+- [x] [`yarn`](https://github.com/hom/install/blob/master/install/yarn.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcxMzczNDddfQ==
+eyJoaXN0b3J5IjpbLTE1MjU1Mzg3ODhdfQ==
 -->
