@@ -1,13 +1,13 @@
 # install
 
 - [x] [`nginx`](https://github.com/hom/install/blob/master/install/nginx.md)
-- [x] `mongodb`
-- [x] `docker`
-- [x] `docker registry`
-- [x] `ffmpeg`
-- [x] `git`
-- [x] `nvm`
-- [x] `shadowsocks`
+- [x] [`mongodb`](https://github.com/hom/install/blob/master/install/mongodb.md)
+- [x] [`docker`](https://github.com/hom/install/blob/master/install/docker.md)
+- [x] [`docker registry`](https://github.com/hom/install/blob/master/install/docker-registry.md)
+- [x] [`ffmpeg`](https://github.com/hom/install/blob/master/install/ffmpeg.md)
+- [x] [`git`](https://github.com/hom/install/blob/master/install/git.md)
+- [x] [`nvm`](https://github.com/hom/install/blob/master/install/nvm.md)
+- [x] [`shadowsocks`](https://github.com/hom/install/blob/master/install/shadowsocks.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ3MTc2ODBdfQ==
+eyJoaXN0b3J5IjpbLTEzOTcxMzczNDddfQ==
 -->
