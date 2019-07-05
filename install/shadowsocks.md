@@ -38,11 +38,6 @@ CentOS:
 ```bash
 $ yum install python-setuptools && easy_install pip
 $ pip install git+https://github.com/shadowsocks/shadowsocks.git@master
-
-# For CentOS 7, if you need AEAD ciphers, you need install libsodium
-# libsodium支持chacha20加密方法
-$ dnf install libsodium python34-pip
-$ pip3 install  git+https://github.com/shadowsocks/shadowsocks.git@master
 ```
 Linux distributions with snap:
 ```bash
@@ -146,6 +141,23 @@ $ port_password   specify multiple ports and passwords to support multiple users
 ### C++ with Qt
 
 ### Perl
+
+### libsodium支持chacha20加密方法
+
+For CentOS 7, if you need AEAD ciphers, you need install libsodium
+
+```bash
+$ dnf install libsodium python34-pip
+$ pip3 install  git+https://github.com/shadowsocks/shadowsocks.git@master
+
+# 如果没有相关的包安装，需要编译安装
+wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
+tar zxf LATEST.tar.gz
+cd libsodium*
+./configure
+sudo make && sudo make install
+```
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE1NDIwODYzMDZdfQ==
 -->
