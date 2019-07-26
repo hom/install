@@ -1,4 +1,11 @@
-1. 添加`yum`源。新建`/etc/yum.repos.d/nginx.repo`，内容如下：
+1. 添加`yum`源。
+
+```bash
+vim /etc/yum.repos.d/nginx.repo
+```
+
+内容如下：
+
 ```bash
 [nginx]
 name=nginx repo
