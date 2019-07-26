@@ -15,7 +15,7 @@ enabled=1
 ```
 2. 执行安装命令
 ```bash
-yum install nginx
+yum install -y nginx
 ```
 3. 查看`nginx`版本
 ```bash
@@ -33,6 +33,3 @@ rpm -ql nginx
 # 用于日志切割
 /etc/logrotate.d/nginx
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTU1MDA5NV19
--->
