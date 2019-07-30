@@ -4,12 +4,9 @@
 ### centos
 ```bash
 #安装源
-$ yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+$ yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
 #安装git
-$ yum install git
+$ yum install -y git
 #更新git
 $ yum upgrade git
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjY3ODQ3NF19
--->
