@@ -10,4 +10,4 @@
 - [x] [`shadowsocks`](https://github.com/hom/install/blob/master/install/shadowsocks.md)
 - [x] [`yarn`](https://github.com/hom/install/blob/master/install/yarn.md)
 - [x] [`mariadb`](https://github.com/hom/install/blob/master/install/mariadb.md)
-- [ ] [`zabbix`](https://github.com/hom/install/blob/master/install/zabbix.md)
+- [x] [`zabbix`](https://github.com/hom/install/blob/master/install/zabbix.md)
