@@ -50,10 +50,10 @@ sudo yum-config-manager --enable docker-ce-edge
 sudo yum-config-manager --enable docker-ce-test
 ```
 
-安装`docker-ce`
+安装稳定版本
 ```bash
 sudo yum makecache fast
-sudo yum install docker-ce
+sudo yum install -y docker-ce
 ```
 
 ### 通过脚本安装
