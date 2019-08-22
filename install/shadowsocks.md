@@ -158,6 +158,8 @@ cd libsodium*
 sudo make && sudo make install
 ```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIwODYzMDZdfQ==
--->
+## 加速
+
+```bash
+sudo wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
