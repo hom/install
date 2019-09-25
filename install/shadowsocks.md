@@ -147,10 +147,9 @@ $ port_password   specify multiple ports and passwords to support multiple users
 For CentOS 7, if you need AEAD ciphers, you need install libsodium
 
 ```bash
-$ dnf install libsodium python34-pip
-$ pip3 install  git+https://github.com/shadowsocks/shadowsocks.git@master
+$ yum -y install libsodium
 
-# 如果没有相关的包安装，需要编译安装
+# 如果没有相关的libsodium包安装，需要编译安装
 wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
 tar zxf LATEST.tar.gz
 cd libsodium*
