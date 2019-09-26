@@ -36,7 +36,7 @@ $ pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 ```
 CentOS:
 ```bash
-$ yum install python-setuptools && easy_install pip
+$ yum install libsodium python34-pip
 $ pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 ```
 Linux distributions with snap:
