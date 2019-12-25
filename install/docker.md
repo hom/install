@@ -53,7 +53,7 @@ sudo yum-config-manager --enable docker-ce-test
 安装稳定版本
 ```bash
 sudo yum makecache fast
-sudo yum install -y docker-ce
+sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
 ### 通过脚本安装
