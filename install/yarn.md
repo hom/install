@@ -8,7 +8,7 @@ $ curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/
 2. 如果没有安装`Node.js`，需要先安装
 
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
 ```
 
 3. 接下來你可以很簡單的使用以下指令安裝
