@@ -11,3 +11,4 @@
 - [x] [`yarn`](https://github.com/hom/install/blob/master/install/yarn.md)
 - [x] [`mariadb`](https://github.com/hom/install/blob/master/install/mariadb.md)
 - [x] [`zabbix`](https://github.com/hom/install/blob/master/install/zabbix.md)
+- [x] [`gitlab`](https://github.com/hom/install/blob/master/install/gitlab.md)
