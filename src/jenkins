@@ -1,0 +1,31 @@
+jenkins
+
+1. 安装 `java`
+
+```bash
+sudo yum install java -y
+```
+
+2. 添加 `repo` 源
+
+```bash
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+```
+
+3. 添加 `rpm` 验证 `key`
+
+```bash
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+```
+
+4. 安装 `jenkins`
+
+```bash
+yum install jenkins -y
+```
+
+5. 查看 `jenkins` 配置文件
+
+```bash
+cat /etc/sysconfig/jenkins
+```
